@@ -6,6 +6,6 @@ leads <- function(var, n=10){
 
   indices <- seq_len(n)
   map( indices, ~quo(lead(!!var, !!.x)) ) %>%
-    set_names(sprintf("lag_%s_%02d", rlang::quo_text(var), indices))
+    set_names(sprintf("lead_%s_%02d", rlang::quo_text(var), indices))
 }
 
