@@ -2,5 +2,6 @@
 
 export(get_id)
 export(lags)
+export(leads)
 export(pro_switch)
 export(pro_switch_test_function)
