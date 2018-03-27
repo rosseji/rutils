@@ -7,7 +7,7 @@ get_id <- function() {
          Sys.time() %>%
            as.numeric() %>%
            as.character()) %>%
-    stringr::str_cstr_replace("\\.", "")
+    stringr::str_replace("\\.", "")
 }
 
 
