@@ -1,6 +1,6 @@
 Package: rutils
 Title: Just some useful personal functions
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: person("Ross", "Ireland", email = "ross@trendlock.com.au", role = c("aut", "cre"))
 Description: Just holds some useful funtions
 Depends: tidyverse
