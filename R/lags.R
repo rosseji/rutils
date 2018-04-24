@@ -2,7 +2,7 @@
 
 #' @export
 
-lags <- function(var, n = 10, .keep_all = F){
+lags <- function(var, n = 10, .keep_all = T){
 
   if (.keep_all == F) {
     indices <- seq(n)[-1]

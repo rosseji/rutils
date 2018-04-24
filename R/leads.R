@@ -1,7 +1,7 @@
 
 #' @export
 
-leads <- function(var, n = 10, .keep_all = F){
+leads <- function(var, n = 10, .keep_all = T){
 
   if (.keep_all == F) {
     indices <- seq(n)[-1]
