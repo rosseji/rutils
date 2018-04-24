@@ -11,6 +11,7 @@ lags <- function(var, n = 10, .keep_all = T){
   }
 
   map( indices, ~ quo(lag(!!rlang::sym(var), !!.x)) ) %>%
-    set_names(sprintf("lag_%s_%02d", var, indices))
+    set_names(sprintf("lag_%s_%02d", var, indices))%>%
+    select(-rlang::sym(var))
 }
 

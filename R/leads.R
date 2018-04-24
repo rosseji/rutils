@@ -10,6 +10,8 @@ leads <- function(var, n = 10, .keep_all = T){
   }
 
   map( indices, ~ quo(lead(!!rlang::sym(var), !!.x)) ) %>%
-    set_names(sprintf("lead_%s_%02d", var, indices))
+    set_names(sprintf("lead_%s_%02d", var, indices)) %>%
+    ungroup() %>%
+    select(-rlang::sym(var))
 }
 
