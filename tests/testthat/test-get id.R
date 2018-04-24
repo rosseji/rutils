@@ -6,3 +6,14 @@ test_that("unique ids", {
     F
   )
 })
+
+test_that("unique ids, larger set", {
+  expect_equal(
+    seq(1000) %>%
+      map( ~ get_id()) %>%
+      unlist() %>%
+      table() %>%
+      max(),
+    1
+  )
+})
