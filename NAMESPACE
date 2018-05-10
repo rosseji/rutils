@@ -3,5 +3,6 @@
 export(get_id)
 export(lags)
 export(leads)
+export(parse_AWS_date_time)
 export(pro_switch)
 export(pro_switch_test_function)
