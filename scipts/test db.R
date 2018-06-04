@@ -4,9 +4,9 @@ library(tidyverse)
 library(DBI)
 
 cn <- dbConnect(drv = RMySQL::MySQL(),
-                username = "trendlock",
+                username = "",
                 password = "",
-                host = "tldb.cx8scgskutrh.ap-southeast-2.rds.amazonaws.com",
+                host = "",
                 port = 3306,
                 dbname = "bomweather")
 
