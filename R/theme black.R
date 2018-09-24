@@ -15,8 +15,8 @@ theme_black = function(base_size = 12, base_family = "") {
       axis.title.y = element_text(size = base_size, color = "white", angle = 90, margin = margin(0, 10, 0, 0)),
       axis.ticks.length = unit(0.3, "lines"),
       # Specify legend options
-      legend.background = element_rect(color = NA, fill = "#282823"),
-      legend.key = element_rect(color = "white",  fill = "#282823"),
+      legend.background = element_rect(color = NA, fill = "#1f1f1f"),
+      legend.key = element_rect(color = "white",  fill = "#1f1f1f"),
       legend.key.size = unit(1.2, "lines"),
       legend.key.height = NULL,
       legend.key.width = NULL,
@@ -28,7 +28,7 @@ theme_black = function(base_size = 12, base_family = "") {
       legend.direction = "vertical",
       legend.box = NULL,
       # Specify panel options
-      panel.background = element_rect(fill = "#282823", color  =  NA),
+      panel.background = element_rect(fill = "#1f1f1f", color  =  NA),
       panel.border = element_rect(fill = NA, color = "white"),
       panel.grid.major = element_line(color = "grey35"),
       panel.grid.minor = element_line(color = "grey20"),
@@ -38,7 +38,7 @@ theme_black = function(base_size = 12, base_family = "") {
       strip.text.x = element_text(size = base_size*0.8, color = "white"),
       strip.text.y = element_text(size = base_size*0.8, color = "white",angle = -90),
       # Specify plot options
-      plot.background = element_rect(color = "#282823", fill = "#282823"),
+      plot.background = element_rect(color = "#1f1f1f", fill = "#1f1f1f"),
       plot.title = element_text(size = base_size*1.2, color = "white"),
       plot.margin = unit(rep(1, 4), "lines")
 

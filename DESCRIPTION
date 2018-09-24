@@ -4,10 +4,10 @@ Version: 0.0.9
 Authors@R: person("Ross", "Ireland", email = "ross@trendlock.com.au", role = c("aut", "cre"))
 Description: Just holds some useful funtions
 Depends: tidyverse, lubridate
-Imports: testthat
+Imports: testthat, gdata
 License: MIT
 Encoding: UTF-8
 LazyData: true
 Suggests: 
     testthat
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
